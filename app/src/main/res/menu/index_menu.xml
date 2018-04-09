@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_menu_transparent"
+        android:title="Transparente"/>
+    <item
+        android:id="@+id/id_menu_semitransparent"
+        android:title="Semi-Transparente"/>
+    <item
+        android:id="@+id/id_menu_opaque"
+        android:title="Opaco"/>
+    <item
+        android:id="@+id/id_menu_black"
+        android:title="Negro"/>
+    <item
+        android:id="@+id/id_menu_white"
+        android:title="Blanco"/>
+    <item
+        android:id="@+id/id_menu_red"
+        android:title="Rojo"/>
+    <item
+        android:id="@+id/id_menu_green"
+        android:title="Verde"/>
+    <item
+        android:id="@+id/id_menu_blue"
+        android:title="Azul"/>
+    <item
+        android:id="@+id/id_menu_magenta"
+        android:title="Magenta"/>
+    <item
+        android:id="@+id/id_menu_yellow"
+        android:title="Amarillo"/>
+</menu>
