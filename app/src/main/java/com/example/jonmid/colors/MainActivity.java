@@ -43,11 +43,6 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         textViewBlue = (TextView) findViewById(R.id.tv_blue_num);
         textViewAlpha = (TextView) findViewById(R.id.tv_alpha_num);
 
-        textViewRed.setText(seekR);
-        textViewGreen.setText(seekG);
-        textViewBlue.setText(seekB);
-        textViewAlpha.setText(seekA);
-
     }
 
     @Override
@@ -129,9 +124,13 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         seekB = seekBarBlue.getProgress();
         seekA = seekBarAlpha.getProgress();
 
+        textViewRed.setText(String.valueOf(seekR));
+        textViewGreen.setText(String.valueOf(seekG));
+        textViewBlue.setText(String.valueOf(seekB));
+        textViewAlpha.setText(String.valueOf(seekA));
+
         int color = Color.argb(seekA, seekR, seekG, seekB);
         viewBackground.setBackgroundColor(color);
-
 
     }
 
